@@ -24,7 +24,7 @@
        public function ChamaCliente($id)
        {
        		
-       		echo '<tr><td><a href="mostradados.php/?id='.$id.'">Nome: '.$this->nome.'</a></td></tr>';
+       		echo '<tr><td><a href="mostradados.php/?id='.$id.'">'.$this->nome.'</a></td></tr>';
        		
        }
        public function MostraCliente()
