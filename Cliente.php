@@ -24,7 +24,8 @@
        public function ChamaCliente($id)
        {
        		
-       		echo '<tr><td><a href="mostradados.php/?id='.$id.'">'.$this->nome.'</a></td></tr>';
+       		/*echo '<tr><td><a data-id="<?php echo $id;?>" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">'.$this->nome.'</a></td></tr>'; */
+                     echo '<tr><td><a href="mostradados.php/?id='.$id.'" data-remote="false" data-toggle="modal" data-target="#myModal">'.$this->nome.'</a></td></tr>';
        		
        }
        public function MostraCliente()
